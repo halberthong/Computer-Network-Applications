@@ -17,18 +17,8 @@ or java sender file.txt localhost 5000 9999 stdout 1
 (window size of 1 is set as default)
 
 4. If the programs works out successfully,
-“Delivery completed successfully” will be showed in the receiver’s terminal.
+“Delivery completed successfully” will be showed in the receiver’s terminal, with statistics on segment sent and retransmitted.
 
-Delivery completed successfully
-Total bytes sent = 3930
-Segments sent = 22
-Segments retransmitted = 15
-
-5. In the final, normally, 3 file will be generated in the folder: 
-file.txt: It is exactly what the receiver get from the sender.
-file1.txt: The output file from receiver.
-senderLog.txt: Record the log information of the sender.
-receiverLog.txt: Record the log information of the receiver.
 
 
 
