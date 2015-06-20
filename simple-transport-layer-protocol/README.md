@@ -24,8 +24,6 @@ Total bytes sent = 3930
 Segments sent = 22
 Segments retransmitted = 15
 
-will be showed in the sender’s information
-
 5. In the final, normally, 3 file will be generated in the folder: 
 file.txt: It is exactly what the receiver get from the sender.
 file1.txt: The output file from receiver.
