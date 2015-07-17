@@ -3,7 +3,7 @@ The program consists of 2 files:
 1. adns.java
 2. org.xbill.dns_2.1.7.jar
 
-This program allows you to retrive DNS infomation.
+This program allows you to retrieve DNS information.
 
 use command: “make”
 to compile .java file to .class file

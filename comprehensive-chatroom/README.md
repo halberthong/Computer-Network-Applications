@@ -1,10 +1,10 @@
 # Comprehensive Chatroom
-This program builds comprehensive servers for messaging applications, 
-including elementary security features and current state of the chat­room. 
-This will require that various processes in different machines are able to work with each other, 
-and recuperate in case of asynchronous messaging and failure. 
-This chat program is based on a client server model consisting of one chat server and multiple chat clients over TCP connections. 
-The server is mainly used to authenticate the chat clients and direct the chat messages to one another. 
+This program builds a comprehensive server for messaging, 
+including elementary security features and current state of the chat­room.
+This will require that various processes in different machines are able to work with each other,
+and recuperate in case of asynchronous messaging and failure.
+This chat program is based on a client server model consisting of one chat server and multiple chat clients over TCP connections.
+The server is mainly used to authenticate the chat clients and direct the chat messages to one another.
 Besides, the server also has to support certain commands that the clients can use.
 
 (a) code description:
@@ -26,7 +26,7 @@ Tested in java 1.8 and 1.7 (java 1.6 should work)
 (c) instruction of how to run the code
 1. enter "make" to invoke makefile that generate .class file and be ready run.
 
-2. At server terminal, input "java Server [port_number]", the port_number can be any available 
+2. At server terminal, input "java Server [port_number]", the port_number can be any available
 port number.
 3. At client terminal, input "java Server [server_ip_address] [server_port_number]", after authentication.
 
